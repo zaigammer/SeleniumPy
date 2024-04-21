@@ -1,9 +1,8 @@
 import time
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-driver = webdriver.Chrome(executable_path="C:\\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="C:\\chromedriver.exe")   #launch browser
 driver.implicitly_wait(5)
 
 driver.get("http://www.google.com")
